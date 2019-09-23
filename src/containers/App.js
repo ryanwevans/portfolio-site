@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import '../App.css';
 import NavBar from '../components/Navbar';
-import Bio from '../components/Bio';
 import MainSection from '../components/MainSection';
+import Bio from '../components/Bio';
+import Portfolio from '../components/Portfolio';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <NavBar />
             <MainSection />
             <Bio />
+            <Portfolio />
           </Router>
         </div>
       </div>

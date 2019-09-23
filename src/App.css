@@ -33,6 +33,30 @@
 }
 
 /* Added CSS styles */
+.bio-section {
+  background-color: rgb(222, 226, 226);
+  color: rgb(37, 37, 37);
+  height: 500px;
+}
+
+.bio-container {
+  padding-top: 10%;
+}
+
+.portfolio-section {
+  background-color: rgb(254, 255, 255);
+  color: rgb(37, 37, 37);
+  height: 500px;
+}
+
+.portfolio-container {
+  padding-top: 10%;
+}
+
+.main-section {
+  padding-top: 10%;
+}
+
 .MainBackgroundImage {
   /* The image used */
   background-image: url("./images/main_image.jpg");
@@ -45,14 +69,18 @@
   background-size: cover;
 }
 
-
+.MainBackgroundImage::after {
+  background-color: #333436;
+  opacity: 10%;
+  z-index: -1;
+}
 
 h1 {
   letter-spacing: 10px;
   color: rgb(230, 238, 238);
 }
 
-h5 {
+.main-section-h3 {
   letter-spacing: 10px;
   color: rgb(230, 238, 238);
 }
