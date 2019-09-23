@@ -2,7 +2,9 @@ import React from 'react';
 
 const Bio = () => {
     return (
-        "...This is my Bio..."
+        <div className='Bio'>
+            "Bio Section"
+        </div>
     );
 }
 

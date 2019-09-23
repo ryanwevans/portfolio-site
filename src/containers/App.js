@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import '../App.css';
 import NavBar from '../components/Navbar';
-import Bio from '../components/Bio'
+import Bio from '../components/Bio';
+import MainSection from '../components/MainSection';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <div className="wrapper">
           <Router>
             <NavBar />
+            <MainSection />
             <Bio />
           </Router>
         </div>
