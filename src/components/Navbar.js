@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
-const NavBar = (props) => {
+const NavBar = () => {
     return (
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>

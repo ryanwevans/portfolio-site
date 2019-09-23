@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import NavBar from '../components/Navbar.js';
 import '../App.css';
+import NavBar from '../components/Navbar';
+import Bio from '../components/Bio'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <div className="wrapper">
           <Router>
             <NavBar />
+            <Bio />
           </Router>
         </div>
       </div>
