@@ -1,18 +1,22 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import {NavLink} from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 const NavBar = (props) => {
     return (
-        <Navbar fixed="top" bg="dark" variant="dark" size="xs" style={{ height: '74px', minWidth: '716px' }}>
-            {/* NavBar left branding text */}
-            <Navbar.Brand classname="NavBarBrandType" href="/">RYANEVNS</Navbar.Brand>
-            <Navbar size="xs" className="mr-auto">
-                <NavLink to='/portfolio'>PORTFOLIO</NavLink>
-                <NavLink to='/blog'>BLOG</NavLink>
-                <NavLink to='/contact'>CONTACT</NavLink>
-            </Navbar>
-        </Navbar>
+        <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#pricing">Pricing</Nav.Link>
+        </Nav>
+        {/* <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-info">Search</Button>
+        </Form> */}
+      </Navbar>
     );
 }
 

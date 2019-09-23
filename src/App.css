@@ -34,6 +34,16 @@
 
 /* Added CSS styles */
 /* Large */
+.NavBarBrandType {
+  display: flex;
+  justify-self: flex-start;
+}
+
+.NavBarLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
