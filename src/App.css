@@ -32,6 +32,8 @@
   }
 }
 
+
+
 /* Add Bio section styles */
 .bio-section {
   background-color: rgb(222, 226, 226);
@@ -60,10 +62,11 @@
 }
 
 
+
 /* Add Main section styles */
 .main-section {
-  padding-top: 10%;
-  background-color: rgba(0, 0, 0, 0.5),
+  padding-top: 20%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .MainBackgroundImage {
@@ -76,7 +79,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #5d5d5f;
+  background-color: #49494b;
   background-blend-mode: overlay;
 }
 
@@ -85,15 +88,14 @@
   z-index: -1;
 }
 
-h1 {
-  letter-spacing: 10px;
-  color: rgb(255, 255, 255);
+.main-section-h3 {
+  letter-spacing: 8px;
+  color: rgb(230, 238, 238);
+  font-size: 60px;
+  text-align: left;
+  padding-left: 5%;
 }
 
-.main-section-h3 {
-  letter-spacing: 10px;
-  color: rgb(230, 238, 238);
-}
 
 
 /* Add Portfolio section styles */
