@@ -32,7 +32,7 @@
   }
 }
 
-/* Added CSS styles */
+/* Add Bio section styles */
 .bio-section {
   background-color: rgb(222, 226, 226);
   color: rgb(37, 37, 37);
@@ -49,10 +49,54 @@
 }
 
 .img-fluid {
-  max-width: 100%; /* or to whatever you want here */
-  max-height: 100%; /* or to whatever you want here */
+  max-width: 100%;
+  max-height: 100%;
 }
 
+.bio-text {
+  height: 400px;
+  text-align: left;
+  padding-top: 10%;
+}
+
+
+/* Add Main section styles */
+.main-section {
+  padding-top: 10%;
+  background-color: rgba(0, 0, 0, 0.5),
+}
+
+.MainBackgroundImage {
+  /* The image used */
+  background-image: url("./images/main_image.jpg");
+  
+  /* Full height */
+  height: 550px; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5d5d5f;
+  background-blend-mode: overlay;
+}
+
+.MainBackgroundImage::after {
+  background-color: #333436;
+  z-index: -1;
+}
+
+h1 {
+  letter-spacing: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.main-section-h3 {
+  letter-spacing: 10px;
+  color: rgb(230, 238, 238);
+}
+
+
+/* Add Portfolio section styles */
 .portfolio-section {
   background-color: rgb(254, 255, 255);
   color: rgb(37, 37, 37);
@@ -62,39 +106,6 @@
 .portfolio-container {
   padding-top: 10%;
 }
-
-.main-section {
-  padding-top: 10%;
-}
-
-.MainBackgroundImage {
-  /* The image used */
-  background-image: url("./images/main_image.jpg");
-
-  /* Full height */
-  height: 550px; 
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.MainBackgroundImage::after {
-  background-color: #333436;
-  opacity: 10%;
-  z-index: -1;
-}
-
-h1 {
-  letter-spacing: 10px;
-  color: rgb(230, 238, 238);
-}
-
-.main-section-h3 {
-  letter-spacing: 10px;
-  color: rgb(230, 238, 238);
-}
-
 
 
 /* Large */
