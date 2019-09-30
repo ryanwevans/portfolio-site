@@ -40,7 +40,17 @@
 }
 
 .bio-container {
-  padding-top: 10%;
+  padding-top: 2%;
+  height: 100%;
+}
+
+.bio-image {
+  height: 400px;
+}
+
+.img-fluid {
+  max-width: 100%; /* or to whatever you want here */
+  max-height: 100%; /* or to whatever you want here */
 }
 
 .portfolio-section {
