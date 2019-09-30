@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,7 +30,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 
 
@@ -68,6 +68,11 @@
 }
 
 
+.section-heading {
+  letter-spacing: 3px;
+  padding-left: 6%;
+}
+
 
 /* Add Bio section styles */
 .bio-section {
@@ -81,12 +86,8 @@
   height: 100%;
 }
 
-.section-heading {
-  letter-spacing: 3px;
-}
-
 .bio-image {
-  height: 400px;
+  max-height: 400px;
 }
 
 .img-fluid {
@@ -95,9 +96,7 @@
 }
 
 .bio-text {
-  height: 400px;
-  text-align: left;
-  padding-top: 2%;
+  text-align: justify;
 }
 
 
