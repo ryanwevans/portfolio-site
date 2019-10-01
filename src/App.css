@@ -87,15 +87,11 @@
 
 
 /* Add navigation styles */
-.nav-links-container {
-  letter-spacing: 3px;
-  color: rgb(245, 248, 248);
-  font-size: 15px;
-  padding-left: 8%;
-}
 
-.nav-links {
-  padding-left: 8%;
+.nav-link-texts {
+  letter-spacing: 2px;
+  padding-left: 10%;
+  font-size: 15px;
 }
 
 .nav-brand {

@@ -11,10 +11,18 @@ const NavBar = () => {
           <Link className='nav-brand' to="home" spy={true} smooth={true} duration={500}>RyanEvns</Link>
         </Navbar.Brand>
         <Nav className="mr-auto nav-links-container">
-          <Link className='nav-links font-weight-lighter' to="home" spy={true} smooth={true} duration={500}>Home</Link>
-          <Link className='nav-links font-weight-lighter' to="bio" spy={true} smooth={true} duration={500}>Bio</Link>
-          <Link className='nav-links font-weight-lighter' to="portfolio" spy={true} smooth={true} duration={500}>Portfolio</Link>
-          <Link className='nav-links font-weight-lighter' to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+          <Nav.Link>
+          <Link className='nav-link-texts' to="home" spy={true} smooth={true} duration={800}>Home</Link>
+          </Nav.Link>
+          <Nav.Link>
+          <Link className='nav-link-texts' to="bio" spy={true} smooth={true} duration={800} offset={-50}>Bio</Link>
+          </Nav.Link>
+          <Nav.Link>
+          <Link className='nav-link-texts' to="portfolio" spy={true} smooth={true} duration={800}>Portfolio</Link>
+          </Nav.Link>
+          <Nav.Link>
+          <Link className='nav-link-texts' to="contact" spy={true} smooth={true} duration={800}>Contact</Link>
+          </Nav.Link>
         </Nav>
       </Navbar>
     );
