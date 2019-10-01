@@ -18,7 +18,7 @@ const NavBar = () => {
           <Link className='nav-link-texts' to="home" spy={true} smooth={true} duration={800}>Home</Link>
           </Nav.Link>
           <Nav.Link>
-          <Link className='nav-link-texts' to="bio" spy={true} smooth={true} duration={800} offset={-50}>Bio</Link>
+          <Link className='nav-link-texts' to="about" spy={true} smooth={true} duration={800} offset={-50}>About</Link>
           </Nav.Link>
           <Nav.Link>
           <Link className='nav-link-texts' to="portfolio" spy={true} smooth={true} duration={800} offset={-50}>Portfolio</Link>

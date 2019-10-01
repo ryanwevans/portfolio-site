@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 
 const Bio = () => {
     return (
-        <div className='bio-section' id='bio'>
+        <div className='bio-section' id='about'>
             <div className='bio-container font-weight-light'>
                 <h3 className='section-heading font-weight-lighter text-uppercase'>About</h3>
                 <Container>
