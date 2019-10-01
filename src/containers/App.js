@@ -5,6 +5,7 @@ import NavBar from '../components/Navbar';
 import MainSection from '../components/MainSection';
 import Bio from '../components/Bio';
 import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <MainSection />
             <Bio />
             <Portfolio />
+            <Contact />
           </Router>
         </div>
       </div>

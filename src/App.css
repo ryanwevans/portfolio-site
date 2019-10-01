@@ -86,6 +86,20 @@
 
 
 
+/* Add Contact section styles */
+.contact-section {
+  background-color: rgb(77, 78, 78);
+  color: rgb(235, 232, 232);
+  height: 500px;
+}
+
+.contact-container {
+  padding-top: 2%;
+  height: 100%;
+}
+
+
+
 /* Add navigation styles */
 
 .nav-link-texts {
