@@ -20,6 +20,13 @@ const Bio = () => {
                             </p>
                         </Col>
                     </Row>
+                    <Row>
+                        <Col className='bio-apps-list'>
+                            <p>
+                                REACT | REDUX | JAVASCRIPT | RUBY | RAILS | MySQL | MVC | ACTIVERECORD | REST | HTML | CSS
+                            </p>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         </div>
