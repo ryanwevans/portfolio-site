@@ -13,7 +13,12 @@ const Contact = () => {
                     <Row>
                         <h4 class="text-uppercase font-weight-light contact-h4">RYAN EVANS</h4>
                         <h5 className='font-weight-lighter contact-h5'>
-                        ryanwevans@icloud.com<br/>
+                        <Nav.Link
+                            className='email-link'
+                            href='mailto:ryanwevans@icloud.com'>
+                            ryanwevans@icloud.com
+                        </Nav.Link>
+                        <br/>
                         360.224.1768<br/><br/>
                         <Nav.Link 
                             className='social-links' 

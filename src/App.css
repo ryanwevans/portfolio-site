@@ -136,6 +136,17 @@
   padding-top: 2%;
 }
 
+.portfolio-links {
+  letter-spacing: 2px;
+  line-height: 200%;
+  color: rgb(37, 37, 37);
+  padding: 0px !important;
+}
+
+.portfolio-links:hover {
+  color: rgb(84, 134, 113);
+}
+
 
 
 /* Add Contact section styles */
@@ -175,6 +186,17 @@
 }
 
 .social-links:hover {
+  color: rgb(138, 184, 168);
+}
+
+.email-link {
+  letter-spacing: 2px;
+  line-height: 200%;
+  color: rgb(235, 232, 232);
+  padding: 0px !important;
+}
+
+.email-link:hover {
   color: rgb(138, 184, 168);
 }
 

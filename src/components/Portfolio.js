@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
+import Nav from 'react-bootstrap/Nav';
 
 const Portfolio = () => {
     return (
@@ -29,7 +30,20 @@ const Portfolio = () => {
                                 <li>Created a Rails API and database schema using ActiveRecord with an MVC pattern for data persistence</li>
                                 <li>Added Redux to allow individual components to access and update application state</li>
                                 <li>Implemented Redux Thunk middleware to allow asynchronous API calls and multiple action dispatches</li>
-                                <li><em>GitHub</em> | <em>Heroku</em></li>
+                                <li>
+                                <Nav.Link 
+                                    className='portfolio-links' 
+                                    href='https://github.com/ryanwevans/happy-hive' 
+                                    target='_blank'>
+                                    <em>GitHub</em>
+                                </Nav.Link> | 
+                                <Nav.Link 
+                                    className='portfolio-links' 
+                                    href='https://happy-hive-heroku-app.heroku.com' 
+                                    target='_blank'>
+                                    <em>Heroku</em>
+                                </Nav.Link>
+                                </li>
                             </ul>
                             </p>
                         </Col>
