@@ -1,129 +1,3 @@
-
-/* Add Main section styles */
-.main-section {
-  padding-top: 20%;
-}
-
-.MainBackgroundImage {
-  /* The image used */
-  background-image: url("./images/main_image.jpg");
-  
-  /* Full height */
-  height: 660px; 
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #49494b;
-  background-blend-mode: overlay;
-}
-
-.MainBackgroundImage::after {
-  background-color: #333436;
-  z-index: -1;
-}
-
-.main-section-h3 {
-  letter-spacing: 8px;
-  color: rgb(230, 238, 238);
-  font-size: 60px;
-  text-align: left;
-  padding-left: 5%;
-}
-
-
-.section-heading {
-  letter-spacing: 3px;
-  padding-left: 6%;
-}
-
-
-/* Add Bio section styles */
-.bio-section {
-  background-color: rgb(176, 180, 180);
-  color: rgb(37, 37, 37);
-  min-height: 600px;
-}
-
-.bio-container {
-  padding-top: 2%;
-  height: 100%;
-}
-
-.bio-image {
-  max-height: 400px;
-}
-
-.img-fluid {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.section-text {
-  text-align: justify;
-}
-
-.bio-apps-list {
-  width: 100%;
-  text-align: center;
-  padding-top: 8%;
-  letter-spacing: 2px;
-}
-
-
-
-/* Add Portfolio section styles */
-.portfolio-section {
-  background-color: rgb(254, 255, 255);
-  color: rgb(37, 37, 37);
-  height: 600px;
-}
-
-.portfolio-container {
-  padding-top: 2%;
-  height: 100%;
-}
-
-.quotevote-image {
-  border: solid #c5c5c9;
-}
-
-.portfolio-p {
-  padding-top: 4%;
-  font-size: 13px;
-}
-
-.portfolio-h5 {
-  padding-top: 2%;
-}
-
-
-
-/* Add Contact section styles */
-.contact-section {
-  background-color: rgb(77, 78, 78);
-  color: rgb(235, 232, 232);
-  height: 670px;
-}
-
-.contact-container {
-  padding-top: 2%;
-  height: 100%;
-}
-
-.contact-form-container {
-  /* width: 50%; */
-  justify-content: center;
-  padding-top: 5%;
-}
-
-.contact-form {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-
-
 /* Add navigation styles */
 
 .nav-link-texts {
@@ -160,4 +34,163 @@
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}
+
+
+
+/* Add Main section styles */
+.main-section {
+  padding-top: 20%;
+}
+
+.MainBackgroundImage {
+  /* The image used */
+  background-image: url("./images/main_image.jpg");
+  
+  /* Full height */
+  height: 660px; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #49494b;
+  background-blend-mode: overlay;
+}
+
+.MainBackgroundImage::after {
+  background-color: #333436;
+  z-index: -1;
+}
+
+.main-section-h3 {
+  letter-spacing: 8px;
+  color: rgb(230, 238, 238);
+  font-size: 60px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.section-heading {
+  letter-spacing: 3px;
+  padding-left: 6%;
+}
+
+
+
+/* Add Bio section styles */
+.bio-section {
+  background-color: rgb(176, 180, 180);
+  color: rgb(37, 37, 37);
+  height: auto;
+}
+
+.bio-container {
+  padding-top: 2%;
+  height: 100%;
+}
+
+.bio-image {
+  max-height: 400px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.section-text {
+  text-align: justify;
+}
+
+.bio-apps-list {
+  width: 100%;
+  text-align: center;
+  padding-top: 8%;
+  letter-spacing: 2px;
+}
+
+
+
+/* Add Portfolio section styles */
+.portfolio-section {
+  background-color: rgb(254, 255, 255);
+  color: rgb(37, 37, 37);
+  height: auto;
+}
+
+.portfolio-container {
+  padding-top: 2%;
+  height: 100%;
+}
+
+.quotevote-image {
+  border: solid #c5c5c9;
+}
+
+.portfolio-p {
+  padding-top: 4%;
+  font-size: 13px;
+}
+
+.portfolio-h5 {
+  padding-top: 2%;
+}
+
+
+
+/* Add Contact section styles */
+.contact-section {
+  background-color: rgb(77, 78, 78);
+  color: rgb(235, 232, 232);
+  height: 620px;
+}
+
+.contact-container {
+  padding-top: 2%;
+  height: 100%;
+}
+
+.contact-Container {
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.contact-h5 {
+  letter-spacing: 2px;
+  line-height: 200%;
+  padding-left: 10%;
+}
+
+.contact-h4 {
+  padding-left: 10%;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+.contact-footer {
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 24%;
+  padding-left: 10%;
+  font-size: 12px;
+}
+
+.contact-footer-Row {
+  width: auto;
+  text-align: center;
+}
+
+.contact-form {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer {
+  background-color: rgb(77, 78, 78);
+  color: rgb(165, 164, 164);
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 2%;
+  font-weight: 100;
 }

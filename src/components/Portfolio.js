@@ -29,7 +29,7 @@ const Portfolio = () => {
                                 <li>Created a Rails API and database schema using ActiveRecord with an MVC pattern for data persistence</li>
                                 <li>Added Redux to allow individual components to access and update application state</li>
                                 <li>Implemented Redux Thunk middleware to allow asynchronous API calls and multiple action dispatches</li>
-                                <li>GitHub | Heroku</li>
+                                <li><em>GitHub</em> | <em>Heroku</em></li>
                             </ul>
                             </p>
                         </Col>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                                 <li>Implemented OmniAuth to provide login through Facebook</li>
                                 <li>Provided secure signup/login with ActiveModel validations and BCrypt</li>
                                 <li>Utilized RESTful routes, DRY principles, helper methods, partials and limited logic in controllers</li>
-                                <li>GitHub | Heroku</li>
+                                <li><em>GitHub</em> | <em>Heroku</em></li>
                             </ul>
                             </p>
                         </Col>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                 <li>Created user interface with React using class and functional components</li>
                                 <li>Added Redux to allow individual components to access and update application state</li>
                                 <li>Designed with Bootstrap and overriding CSS attributes</li>
-                                <li>GitHub | Heroku</li>
+                                <li><em>GitHub</em> | <em>Heroku</em></li>
                             </ul>
                             </p>
                         </Col>
