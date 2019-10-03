@@ -59,7 +59,7 @@
   max-height: 100%;
 }
 
-.bio-text {
+.section-text {
   text-align: justify;
 }
 
@@ -82,6 +82,19 @@
 .portfolio-container {
   padding-top: 2%;
   height: 100%;
+}
+
+.quotevote-image {
+  border: solid #c5c5c9;
+}
+
+.portfolio-p {
+  padding-top: 4%;
+  font-size: 13px;
+}
+
+.portfolio-h5 {
+  padding-top: 2%;
 }
 
 
