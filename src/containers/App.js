@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import '../App.css';
 import NavBar from '../components/Navbar';
 import MainSection from '../components/MainSection';
-import Bio from '../components/Bio';
+import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 
@@ -15,7 +15,7 @@ class App extends Component {
           <Router>
             <NavBar />
             <MainSection />
-            <Bio />
+            <About />
             <Portfolio />
             <Contact />
           </Router>
