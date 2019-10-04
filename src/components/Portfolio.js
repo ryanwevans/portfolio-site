@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
-import Nav from 'react-bootstrap/Nav';
 
 const Portfolio = () => {
     return (
@@ -31,18 +30,20 @@ const Portfolio = () => {
                                 <li>Added Redux to allow individual components to access and update application state</li>
                                 <li>Implemented Redux Thunk middleware to allow asynchronous API calls and multiple action dispatches</li>
                                 <li>
-                                <Nav.Link 
+                                <a 
                                     className='portfolio-links' 
                                     href='https://github.com/ryanwevans/happy-hive' 
-                                    target='_blank'>
-                                    <em>GitHub</em>
-                                </Nav.Link> | 
-                                <Nav.Link 
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <em><strong>GitHub</strong></em>
+                                </a> | 
+                                <a 
                                     className='portfolio-links' 
-                                    href='https://happy-hive-heroku-app.heroku.com' 
-                                    target='_blank'>
-                                    <em>Heroku</em>
-                                </Nav.Link>
+                                    href='https://happy-hive-react-app.herokuapp.com' 
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <em><strong> Heroku</strong></em>
+                                </a>
                                 </li>
                             </ul>
                             </p>
@@ -66,7 +67,22 @@ const Portfolio = () => {
                                 <li>Implemented OmniAuth to provide login through Facebook</li>
                                 <li>Provided secure signup/login with ActiveModel validations and BCrypt</li>
                                 <li>Utilized RESTful routes, DRY principles, helper methods, partials and limited logic in controllers</li>
-                                <li><em>GitHub</em> | <em>Heroku</em></li>
+                                <li>
+                                <a 
+                                    className='portfolio-links' 
+                                    href='https://github.com/ryanwevans/rails-portfolio-project-camptivities-app' 
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <em><strong>GitHub</strong></em>
+                                </a> | 
+                                <a 
+                                    className='portfolio-links' 
+                                    href='https://camptivities-heroku.herokuapp.com' 
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <em><strong> Heroku</strong></em>
+                                </a>
+                                </li>
                             </ul>
                             </p>
                         </Col>
@@ -88,7 +104,22 @@ const Portfolio = () => {
                                 <li>Created user interface with React using class and functional components</li>
                                 <li>Added Redux to allow individual components to access and update application state</li>
                                 <li>Designed with Bootstrap and overriding CSS attributes</li>
-                                <li><em>GitHub</em> | <em>Heroku</em></li>
+                                <li>
+                                <a 
+                                    className='portfolio-links' 
+                                    href='https://github.com/ryanwevans/quote_vote' 
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <em><strong>GitHub</strong></em>
+                                </a> | 
+                                <a 
+                                    className='portfolio-links' 
+                                    href='https://quote-vote.herokuapp.com' 
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    <em><strong> Heroku</strong></em>
+                                </a>
+                                </li>
                             </ul>
                             </p>
                         </Col>

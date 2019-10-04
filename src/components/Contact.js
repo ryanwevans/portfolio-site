@@ -18,7 +18,7 @@ const Contact = () => {
                             href='mailto:ryanwevans@icloud.com'>
                             ryanwevans@icloud.com
                         </Nav.Link>
-                        <br/>
+                        {/* <br/> */}
                         360.224.1768<br/><br/>
                         <Nav.Link 
                             className='social-links' 

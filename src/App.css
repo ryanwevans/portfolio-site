@@ -145,6 +145,7 @@
 
 .portfolio-links:hover {
   color: rgb(84, 134, 113);
+  text-decoration: none;
 }
 
 
