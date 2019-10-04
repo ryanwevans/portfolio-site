@@ -150,6 +150,39 @@
 
 
 
+/* Add Blog section styles */
+.blog-section {
+  background-color: rgb(176, 180, 180);
+  color: rgb(37, 37, 37);
+  height: 400px;
+}
+
+.blog-container {
+  padding-top: 2%;
+  height: 100%;
+}
+
+.blog-modal-Container {
+  padding-top: 2%;
+}
+
+.blog-modal-title {
+  background-color: rgb(82, 80, 80);
+  color: rgb(231, 235, 235);
+}
+
+.blog-modal-body {
+  background-color: rgb(231, 235, 235);
+  color: rgb(37, 37, 37);
+}
+
+.section-text {
+  text-align: justify;
+  margin-left: 0%;
+}
+
+
+
 /* Add Contact section styles */
 .contact-section {
   background-color: rgb(77, 78, 78);
