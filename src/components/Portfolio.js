@@ -87,7 +87,7 @@ const Portfolio = () => {
                             </p>
                         </Col>
                         <Col className='portfolio-Col'>
-                            <h5 className='portfolio-h5'>Personal Website</h5>
+                            <h5 className='portfolio-h5'>RyanEvns</h5>
                             {/* <br/> */}
                             <Image
                                 rounded
