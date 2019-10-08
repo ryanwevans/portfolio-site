@@ -11,13 +11,12 @@ const Portfolio = () => {
                 <h3 className='section-heading font-weight-lighter text-uppercase'>Portfolio</h3>
                 <Container>
                     <Row fluid className='portfolio-Row'>
+                        {/* Portfolio - Happy Hive */}
                         <Col className='portfolio-Col'>
                             <h5 className='portfolio-h5'>Happy Hive</h5>
                             <Image
                                 rounded
                                 fluid
-                                // width={240}
-                                // height={128}
                                 className="mr-3"
                                 src={require("../images/HappyHiveScreenshot.png")}
                                 alt="Generic placeholder"
@@ -48,14 +47,12 @@ const Portfolio = () => {
                             </ul>
                             </p>
                         </Col>
+                        {/* Portfolio - Camptivities */}
                         <Col className='portfolio-Col'>
                             <h5 className='portfolio-h5'>Camptivities</h5>
-                            {/* <br/> */}
                             <Image
                                 rounded
                                 fluid
-                                // width={240}
-                                // height={128}
                                 className="mr-3"
                                 src={require("../images/CamptivitiesScreenshot.png")}
                                 alt="Camptivities App"
@@ -86,14 +83,12 @@ const Portfolio = () => {
                             </ul>
                             </p>
                         </Col>
+                        {/* Portfolio - RyanEvns */}
                         <Col className='portfolio-Col'>
                             <h5 className='portfolio-h5'>RyanEvns</h5>
-                            {/* <br/> */}
                             <Image
                                 rounded
                                 fluid
-                                // width={240}
-                                // height={128}
                                 className="mr-3 ryanevns-image"
                                 src={require("../images/RyanEvnsScreenShot.png")}
                                 alt="Ryan Evans Website"
