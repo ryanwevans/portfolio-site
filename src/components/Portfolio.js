@@ -87,37 +87,38 @@ const Portfolio = () => {
                             </p>
                         </Col>
                         <Col className='portfolio-Col'>
-                            <h5 className='portfolio-h5'>QuoteVote</h5>
+                            <h5 className='portfolio-h5'>Personal Website</h5>
                             {/* <br/> */}
                             <Image
                                 rounded
                                 fluid
                                 // width={240}
                                 // height={128}
-                                className="mr-3 quotevote-image"
-                                src={require("../images/QuoteVoteScreenshot.png")}
-                                alt="QuoteVote App"
+                                className="mr-3 ryanevns-image"
+                                src={require("../images/RyanEvnsScreenShot.png")}
+                                alt="Ryan Evans Website"
                             />
                             <p className='portfolio-p'>
-                            An app to submit your favorite quotes. Upvote quotes you like, downvote the ones you don’t
+                            Personal portfolio website hosted on Netlify
                             <ul>
-                                <li>Created user interface with React using class and functional components</li>
-                                <li>Added Redux to allow individual components to access and update application state</li>
-                                <li>Designed with Bootstrap and overriding CSS attributes</li>
+                                <li>Single Page App created with React</li>
+                                <li>UI designed with React-Bootstrap and overriding CSS attributes</li>
+                                <li>Background image(s) from stock of personal photography</li>
+                                <li>Blog hosted by The Flatiron School to be incorporated soon...</li>
                                 <li>
                                 <a 
                                     className='portfolio-links' 
-                                    href='https://github.com/ryanwevans/quote_vote' 
+                                    href='https://github.com/ryanwevans/portfolio-site' 
                                     target='_blank'
                                     rel='noopener noreferrer'>
                                     <em><strong>GitHub</strong></em>
                                 </a> | 
                                 <a 
                                     className='portfolio-links' 
-                                    href='https://quote-vote.herokuapp.com' 
+                                    href='https://500px.com/ryanevns' 
                                     target='_blank'
                                     rel='noopener noreferrer'>
-                                    <em><strong> Heroku</strong></em>
+                                    <em><strong> 500px</strong></em>
                                 </a>
                                 </li>
                             </ul>

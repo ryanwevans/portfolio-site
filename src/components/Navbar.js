@@ -7,10 +7,10 @@ import { Link } from 'react-scroll';
 
 const NavBar = () => {
     return (
-      <Navbar className='font-weight-light navigation' bg="dark" variant="dark" fixed='top'>
+      <Navbar className='font-weight-light navigation' bg="dark" variant="dark" fixed="top">
         <Navbar.Brand>
           <Nav.Link>
-            <Link className='nav-brand-text' to="home" spy={true} smooth={true} duration={500}>RyanEvns</Link>
+            <Link className='nav-brand-text' to="home" spy={true} smooth={true} duration={800}>RyanEvns</Link>
           </Nav.Link>
         </Navbar.Brand>
         <Nav className="mr-auto nav-links-container" justify>
