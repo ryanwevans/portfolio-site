@@ -115,7 +115,7 @@ const Portfolio = () => {
                                 </a> | 
                                 <a 
                                     className='portfolio-links' 
-                                    href='https://500px.com/ryanevns' 
+                                    href='https://500px.com/ryanevns/galleries' 
                                     target='_blank'
                                     rel='noopener noreferrer'>
                                     <em><strong> 500px</strong></em>
