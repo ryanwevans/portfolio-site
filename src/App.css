@@ -1,5 +1,4 @@
 /* Add navigation styles */
-
 .nav-link-texts {
   letter-spacing: 2px;
   padding-left: 10%;
@@ -44,10 +43,7 @@
 }
 
 .MainBackgroundImage {
-  /* The image used */
   background-image: url("./images/main_image.jpg");
-  
-  /* Full height */
   height: 660px; 
   
   background-position: center;
@@ -123,9 +119,6 @@
   height: 100%;
 }
 
-/* .ryanevns-image {
-  border: solid #c5c5c9;
-} */
 
 .portfolio-p {
   padding-top: 4%;
