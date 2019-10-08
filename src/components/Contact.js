@@ -12,14 +12,18 @@ const Contact = () => {
                 <Container className='contact-Container'>
                     <Row>
                         <h4 class="text-uppercase font-weight-light contact-h4">RYAN EVANS</h4>
+                        
                         <h5 className='font-weight-lighter contact-h5'>
                         <Nav.Link
                             className='email-link'
                             href='mailto:ryanwevans@icloud.com'>
                             ryanwevans@icloud.com
                         </Nav.Link>
-                        {/* <br/> */}
-                        360.224.1768<br/><br/>
+
+                        360.224.1768
+                        <br/>
+                        <br/>
+                        
                         <Nav.Link 
                             className='social-links' 
                             href='https://www.linkedin.com/in/ryanevns/' 
@@ -28,6 +32,7 @@ const Contact = () => {
                             <strong>LinkedIn</strong>.com/in/ryanevns<br/>
 
                         </Nav.Link>
+
                         <Nav.Link 
                             className='social-links' 
                             href='https://github.com/ryanwevans/'
@@ -37,6 +42,7 @@ const Contact = () => {
                             
                         </Nav.Link>
                         </h5>
+                        
                     </Row>
                 </Container>
             </div>
