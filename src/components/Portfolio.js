@@ -21,7 +21,7 @@ const Portfolio = () => {
                                 src={require("../images/HappyHiveScreenshot.png")}
                                 alt="Generic placeholder"
                             />
-                            <p className='portfolio-p'>
+                            <span className='portfolio-p'>
                             A chores for rewards app. Earn points by completing posted chores, then redeem points for rewards.
                             <ul>
                                 <li>Programmed user interface with React, with RESTful routes using React Router</li>
@@ -45,7 +45,7 @@ const Portfolio = () => {
                                 </a>
                                 </li>
                             </ul>
-                            </p>
+                            </span>
                         </Col>
                         {/* Portfolio - Camptivities */}
                         <Col className='portfolio-Col'>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                                 src={require("../images/CamptivitiesScreenshot.png")}
                                 alt="Camptivities App"
                             />
-                            <p className='portfolio-p'>
+                            <span className='portfolio-p'>
                             A camp activity staffing app connecting camps and camp counselors
                             <ul>
                                 <li>Programmed a Ruby on Rails MVC framework to manage complex, nested model relationships</li>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                                 </a>
                                 </li>
                             </ul>
-                            </p>
+                            </span>
                         </Col>
                         {/* Portfolio - RyanEvns */}
                         <Col className='portfolio-Col'>
@@ -93,7 +93,7 @@ const Portfolio = () => {
                                 src={require("../images/RyanEvnsScreenShot.png")}
                                 alt="Ryan Evans Website"
                             />
-                            <p className='portfolio-p'>
+                            <span className='portfolio-p'>
                             Personal portfolio website hosted on Netlify
                             <ul>
                                 <li>Single Page App created with React</li>
@@ -117,7 +117,7 @@ const Portfolio = () => {
                                 </a>
                                 </li>
                             </ul>
-                            </p>
+                            </span>
                         </Col>
                     </Row>
                 </Container>
